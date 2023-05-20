@@ -36,7 +36,7 @@ namespace BikiniBottomCashgrab.Locations
             BigInteger sum = BigInteger.Zero;
             foreach(var location in arrayLocations)
             {
-                BigInteger.Add(sum, location.earnings);
+               sum = BigInteger.Add(sum, location.CalculateEarnings());
             }
             CashEarningsPerSecond = sum;
         }
@@ -97,17 +97,20 @@ namespace BikiniBottomCashgrab.Locations
         public override BigInteger CalculateEarnings()
         {
             BigInteger cur = new BigInteger(
-                ((numberOwned + 1) * startingCost) +
-                Math.Pow((1 / 10.0) * numberOwned, 1.3) +
-                Math.Pow((1 / 20.0) * numberOwned, 2) +
-                Math.Pow((1 / 100.0) * numberOwned, 8) +
-                Math.Pow((1 / 500.0) * numberOwned, 12) +
-                Math.Pow((1 / 1000.0) * numberOwned, 16) +
-                Math.Pow((1 / 2000.0) * numberOwned, 20) +
-                Math.Pow((1 / 3000.0) * numberOwned, 23) +
-                Math.Pow((1 / 4000.0) * numberOwned, 25) +
-                Math.Pow((1 / 5000.0) * numberOwned, 50)
-               );
+                    (Math.Pow((1 / 10.0) * numberOwned, 1.1) +
+                    Math.Pow((1 / 20.0) * numberOwned, 1.5) +
+                    Math.Pow((1 / 100.0) * numberOwned, 4) +
+                    Math.Pow((1 / 500.0) * numberOwned, 8) +
+                    Math.Pow((1 / 1000.0) * numberOwned, 12) +
+                    Math.Pow((1 / 2000.0) * numberOwned, 16) +
+                    Math.Pow((1 / 3000.0) * numberOwned, 20) +
+                    Math.Pow((1 / 4000.0) * numberOwned, 24) +
+                    Math.Pow((1 / 5000.0) * numberOwned, 40) + 
+                    1) *
+                    startingEarnings * numberOwned
+                    );
+            earnings = cur;
+            return earnings;
         }
     }
 
@@ -149,6 +152,25 @@ namespace BikiniBottomCashgrab.Locations
 
             //return the sum
             return sum;
+        }
+
+        public override BigInteger CalculateEarnings()
+        {
+            BigInteger cur = new BigInteger(
+                    (Math.Pow((1 / 10.0) * numberOwned, 2) +
+                    Math.Pow((1 / 20.0) * numberOwned, 4) +
+                    Math.Pow((1 / 100.0) * numberOwned, 6) +
+                    Math.Pow((1 / 500.0) * numberOwned, 8) +
+                    Math.Pow((1 / 1000.0) * numberOwned, 10) +
+                    Math.Pow((1 / 2000.0) * numberOwned, 12) +
+                    Math.Pow((1 / 3000.0) * numberOwned, 14) +
+                    Math.Pow((1 / 4000.0) * numberOwned, 16) +
+                    Math.Pow((1 / 5000.0) * numberOwned, 35) +
+                    1) *
+                    startingEarnings * numberOwned
+                    );
+            earnings = cur;
+            return earnings;
         }
     }
 }

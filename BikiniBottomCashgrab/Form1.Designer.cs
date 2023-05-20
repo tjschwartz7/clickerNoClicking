@@ -144,7 +144,7 @@
             // TACost
             // 
             this.TACost.AutoSize = true;
-            this.TACost.Location = new System.Drawing.Point(466, 235);
+            this.TACost.Location = new System.Drawing.Point(570, 235);
             this.TACost.Name = "TACost";
             this.TACost.Size = new System.Drawing.Size(45, 20);
             this.TACost.TabIndex = 11;
@@ -154,7 +154,7 @@
             // PPCost
             // 
             this.PPCost.AutoSize = true;
-            this.PPCost.Location = new System.Drawing.Point(466, 112);
+            this.PPCost.Location = new System.Drawing.Point(570, 112);
             this.PPCost.Name = "PPCost";
             this.PPCost.Size = new System.Drawing.Size(45, 20);
             this.PPCost.TabIndex = 12;

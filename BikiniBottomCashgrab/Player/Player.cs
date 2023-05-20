@@ -28,6 +28,7 @@ namespace BikiniBottomCashgrab.Player
             {
                 playerCash -= cost;
                 activeSet.PurchaseLocation((int)option, numberItems);
+                RecalculateEarningsPerSecond();
                 return true;
             }
             return false;

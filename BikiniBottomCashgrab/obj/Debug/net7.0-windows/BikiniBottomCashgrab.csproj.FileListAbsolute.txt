@@ -5,6 +5,7 @@ C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\bin\Debug\
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\bin\Debug\net7.0-windows\BikiniBottomCashgrab.pdb
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.csproj.AssemblyReference.cache
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.Form1.resources
+C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.Properties.Resources.resources
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.csproj.GenerateResource.cache
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.AssemblyInfoInputs.cache
@@ -15,4 +16,3 @@ C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.pdb
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.genruntimeconfig.cache
 C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\ref\BikiniBottomCashgrab.dll
-C:\Users\tjsch\source\repos\BikiniBottomCashgrab\BikiniBottomCashgrab\obj\Debug\net7.0-windows\BikiniBottomCashgrab.Properties.Resources.resources
